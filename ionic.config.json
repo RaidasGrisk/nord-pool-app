@@ -1,0 +1,7 @@
+{
+  "name": "nord-pool-price-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
