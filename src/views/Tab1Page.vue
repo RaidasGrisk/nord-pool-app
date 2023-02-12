@@ -9,7 +9,7 @@ import PriceContainer from '@/components/PriceContainer.vue';
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>⚡ kaina</ion-title>
+        <ion-title>⚡ kaina, EUR/MWh</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
