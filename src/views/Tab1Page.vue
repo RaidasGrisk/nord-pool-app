@@ -12,7 +12,7 @@ import PriceContainer from '@/components/PriceContainer.vue';
         <ion-title>⚡ kaina, EUR/MWh</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="false">
       <ion-list class="container">
         <ion-item>
           <ion-label>
@@ -26,13 +26,5 @@ import PriceContainer from '@/components/PriceContainer.vue';
 </template>
 
 <style>
-/* .container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-} */
 
 </style>

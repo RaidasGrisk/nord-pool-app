@@ -128,7 +128,7 @@
 
   onMounted(async () => {
     console.log('mounted')
-    await sceduleNotification()
+    // await sceduleNotification()
     await pullDataAndSetNotifications()
   })
 

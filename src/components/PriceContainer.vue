@@ -43,7 +43,7 @@
     const data = await getPriceData(date.value)
 
     data_.value = {
-      labels: data.map(i => i.date + 'h'),
+      labels: data.map(i => i.date + '-' + (i.date + 1) + 'h'),
       datasets: [
         {
           data: data.map(i => i.value),
@@ -67,10 +67,7 @@
 </script>
 
 <template>
-
-  <h3>Today's price</h3>
   <br><br>
-
   <BarChart :chartData="data_" :height="100" :width="100" :options="chartOptions" />
   <ion-datetime-button datetime="datetime"></ion-datetime-button>
   <ion-modal ref="modal" :keep-contents-mounted="true">
